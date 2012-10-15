@@ -1,5 +1,5 @@
 	<tool>
-		<key>content</key>
+		<key>addContent</key>
 		<scope>application</scope>
 		<class>it.lucgiu.viewtools.AddContetletTool</class>
 	</tool>

@@ -36,10 +36,10 @@ import com.dotmarketing.portlets.structure.factories.FieldFactory;
 import com.dotmarketing.portlets.structure.model.Field;
 
 /**
- * Simple Email Sender ViewTool for DotCMS
+ * Simple Add Contetlet 
  * 
- * @author Christopher Falzone <cfalzone@edinboro.edu>
- * @version 2010.0901
+ * @author Luca Giustiniani
+ * @version 2012.0001
  */
 public class AddContetletTool implements ViewTool {
 
@@ -49,29 +49,6 @@ public class AddContetletTool implements ViewTool {
 	private FieldAPI fAPI;
 
 	
-	
-	/**
-	 * Sends an email
-	 * 
-	 * Example:  #set($error = $mailer.sendMail(
-	 *                   'them@theirdomain.com',
-	 *                   'you@yourdomain.com',
-	 *                   'The Subject',
-	 *                   'The Message',
-	 *                   false))
-	 *           #if($UtilMethods.isSet($error))
-	 *             ## Custom Error Handling 
-	 *           #else
-	 *             <p> Your message was sent </p>
-	 *           #end
-	 * 
-	 * @param to		email address to send to
-	 * @param from		email address to send from
-	 * @param subject	subject of the email
-	 * @param message	the message to send
-	 * @param html		Whether or not to send it in HTML 
-	 * @return			Empty if Successful, or the error message otherwise
-	 */
 	
 		public String updateContentlet(long structure, String idUser,boolean status,String identifier, List<String> key , List<String> value ) {
 
@@ -94,7 +71,7 @@ public class AddContetletTool implements ViewTool {
 		} catch(Exception ex) {
 			return debug + ex.toString();
 		}
-		//System.out.println("stid" + user.getUserId());
+	
 		
 		try {
 			 st = StructureCache.getStructureByInode (structure);
@@ -103,7 +80,7 @@ public class AddContetletTool implements ViewTool {
 		} catch(Exception ex) {
 			return debug + ex.toString();
 		}
-		// System.out.println("stid" + st.getInode());
+	
 		try {
 			if (!(identifier.equals("0") || identifier.equals("") || identifier == null)){
 				debug = "-210";
@@ -123,33 +100,11 @@ public class AddContetletTool implements ViewTool {
                           System.out.println( "Chiave: "+ key.get(i)+" Valore: "+ value.get(i) );
                           if (field.getFieldName().equalsIgnoreCase(key.get(i))){
                                 conAPI.setContentletProperty(newCont, field, value.get(i));
-                                //System.out.println("SET getFieldName " + field.getFieldName() + " "+ value.get(i) );
                           }
                     
                }
                }
-			/*
-			for (Field field : list) {
-				//Object value = null;
-				System.out.println("getFieldName " + field.getFieldName() + "Titolo " +field.getTitle());
-				if (field.getFieldName().equalsIgnoreCase("Titolo")){
-					System.out.println("SET getFieldName " + field.getFieldName() + " "+ title);
-					conAPI.setContentletProperty(newCont, field, title);
-					System.out.println("SET getFieldName " + field.getFieldName() + " "+ title);
-				}
-				if (field.getFieldName()=="descrizione"){
-					conAPI.setContentletProperty(newCont, field, description);
-					System.out.println("SET getFieldName " + field.getFieldName() + " "+ description);
-				}
-				if (field.getFieldName().equalsIgnoreCase("Path video")){
-					conAPI.setContentletProperty(newCont, field, title);
-					System.out.println("SET getFieldName " + field.getFieldName() + " "+ title );
-				}
-				
-						
-				
-			}
-			*/
+		
 		} catch(Exception ex) {
 			return "-400" + ex.toString();
 		}
@@ -161,11 +116,7 @@ public class AddContetletTool implements ViewTool {
 		} catch(Exception ex) {
 			return "-500" + ex.toString();
 		}
-		/*
-		 * At this point if there are no exceptions 
-		 * I am assuming the email was sent
-		 */
-		return "Ok";
+		return "OK";
 	}
 
 		public String addContentlet(long structure, String idUser, boolean status, List<String> key , List<String> value ) {

@@ -1,0 +1,3 @@
+<project name="Contetlet Add" default="build">	
+	<import file="../common.xml"/>	
+</project>

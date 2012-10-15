@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Deploy-Class: 
+Plugin-Name: addContetlet Viewtool
+Plugin-Version: 2012.0001
+Author: luca.giustiniani@matrix.it

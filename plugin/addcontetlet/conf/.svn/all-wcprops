@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/20636/trunk/docs/examples/plugins/hello.world/conf
+END
+liferay-portlet-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/15716/trunk/docs/examples/plugins/hello.world/conf/liferay-portlet-ext.xml
+END
+struts-cms-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/struts-cms-ext.xml
+END
+toolbox-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/toolbox-ext.xml
+END
+dotmarketing-config-ext.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/16664/trunk/docs/examples/plugins/hello.world/conf/dotmarketing-config-ext.properties
+END
+portlet-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/15716/trunk/docs/examples/plugins/hello.world/conf/portlet-ext.xml
+END
+plugin.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/plugin.properties
+END
+dwr-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/dwr-ext.xml
+END
+portal-ext.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/portal-ext.properties
+END
+tiles-defs-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/20636/trunk/docs/examples/plugins/hello.world/conf/tiles-defs-ext.xml
+END
+urlrewrite-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/17065/trunk/docs/examples/plugins/hello.world/conf/urlrewrite-ext.xml
+END
+macros-ext.vm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/macros-ext.vm
+END
+struts-config-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/15716/trunk/docs/examples/plugins/hello.world/conf/struts-config-ext.xml
+END
+DotCMSSeq.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/DotCMSSeq.hbm.xml
+END
+plugin-controller.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/16394/trunk/docs/examples/plugins/hello.world/conf/plugin-controller.properties
+END
+DotCMSId.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/DotCMSId.hbm.xml
+END
+web-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/17701/trunk/docs/examples/plugins/hello.world/conf/web-ext.xml
+END
+Language-ext.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/15716/trunk/docs/examples/plugins/hello.world/conf/Language-ext.properties
+END
+system-ext.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/15699/trunk/docs/examples/plugins/hello.world/conf/system-ext.properties
+END
